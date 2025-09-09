@@ -1,30 +1,21 @@
-# Portfolio template design
+# Devanshu-Portfolio1
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Personal portfolio built with Next.js, React, Tailwind CSS, and Radix UI components.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/lenxisms-projects/v0-portfolio-template-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/0INS7N2xMca)
+## Getting Started
 
-## Overview
+- Install dependencies:
+  - npm install
+- Run the development server:
+  - npm run dev
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Scripts
 
-## Deployment
+- dev: Start Next.js in development mode
+- build: Production build
+- start: Start the production server
 
-Your project is live at:
+## Notes
 
-**[https://vercel.com/lenxisms-projects/v0-portfolio-template-design](https://vercel.com/lenxisms-projects/v0-portfolio-template-design)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/0INS7N2xMca](https://v0.dev/chat/projects/0INS7N2xMca)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- node_modules, build artifacts, and environment files are ignored via .gitignore
+- Images and case studies are located under `/public` and `/app/case-study/*`
