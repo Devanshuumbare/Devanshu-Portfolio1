@@ -15,7 +15,7 @@ interface MetricsGridProps {
   className?: string
 }
 
-export default function MetricsGrid({ metrics, title = "Impact & Results", className }: MetricsGridProps) {
+function MetricsGrid({ metrics, title = "Impact & Results", className }: MetricsGridProps) {
   return (
     <ScrollSection className={cn("mb-16", className)}>
       <div className="mb-8">
@@ -34,3 +34,6 @@ export default function MetricsGrid({ metrics, title = "Impact & Results", class
     </ScrollSection>
   )
 }
+
+export default MetricsGrid
+export { MetricsGrid }

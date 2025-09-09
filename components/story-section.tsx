@@ -13,7 +13,7 @@ interface StorySectionProps {
   sectionNumber?: number
 }
 
-export default function StorySection({ title, subtitle, children, className, delay = 0, sectionNumber }: StorySectionProps) {
+function StorySection({ title, subtitle, children, className, delay = 0, sectionNumber }: StorySectionProps) {
   return (
     <ScrollSection delay={delay} className={cn("mb-24", className)}>
       <div className="mb-12">
@@ -27,3 +27,6 @@ export default function StorySection({ title, subtitle, children, className, del
     </ScrollSection>
   )
 }
+
+export default StorySection
+export { StorySection }

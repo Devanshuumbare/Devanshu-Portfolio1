@@ -12,7 +12,7 @@ interface ScrollSectionProps {
   direction?: "up" | "down" | "left" | "right"
 }
 
-export default function ScrollSection({
+function ScrollSection({
   children,
   className,
   delay = 0,
@@ -72,3 +72,6 @@ export default function ScrollSection({
     </div>
   )
 }
+
+export default ScrollSection
+export { ScrollSection }

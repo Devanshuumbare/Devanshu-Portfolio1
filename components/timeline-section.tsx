@@ -18,7 +18,7 @@ interface TimelineSectionProps {
   className?: string
 }
 
-export default function TimelineSection({ items, title = "Design Process", className }: TimelineSectionProps) {
+function TimelineSection({ items, title = "Design Process", className }: TimelineSectionProps) {
   return (
     <ScrollSection className={cn("mb-24", className)}>
       <div className="mb-12">
@@ -71,3 +71,6 @@ export default function TimelineSection({ items, title = "Design Process", class
     </ScrollSection>
   )
 }
+
+export default TimelineSection
+export { TimelineSection }

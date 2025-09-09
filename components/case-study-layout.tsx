@@ -16,7 +16,7 @@ interface CaseStudyLayoutProps {
   className?: string
 }
 
-export default function CaseStudyLayout({
+function CaseStudyLayout({
   title,
   subtitle,
   heroImage,
@@ -70,3 +70,6 @@ export default function CaseStudyLayout({
     </div>
   )
 }
+
+export default CaseStudyLayout
+export { CaseStudyLayout }

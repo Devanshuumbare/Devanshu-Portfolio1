@@ -11,7 +11,7 @@ interface ParallaxSectionProps {
   overlay?: boolean
 }
 
-export default function ParallaxSection({
+function ParallaxSection({
   children,
   backgroundImage,
   speed = 0.5,
@@ -57,3 +57,6 @@ export default function ParallaxSection({
     </section>
   )
 }
+
+export default ParallaxSection
+export { ParallaxSection }

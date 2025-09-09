@@ -17,7 +17,7 @@ interface StoryFlowProps {
   className?: string
 }
 
-export default function StoryFlow({ steps, children, className }: StoryFlowProps) {
+function StoryFlow({ steps, children, className }: StoryFlowProps) {
   const [activeStep, setActiveStep] = useState(0)
 
   const hasSteps = Array.isArray(steps) && steps.length > 0
@@ -85,3 +85,6 @@ export default function StoryFlow({ steps, children, className }: StoryFlowProps
     </div>
   )
 }
+
+export default StoryFlow
+export { StoryFlow }

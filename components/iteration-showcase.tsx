@@ -19,7 +19,7 @@ interface IterationShowcaseProps {
   className?: string
 }
 
-export default function IterationShowcase({ iterations, title = "Design Evolution", className }: IterationShowcaseProps) {
+function IterationShowcase({ iterations, title = "Design Evolution", className }: IterationShowcaseProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextIteration = () => {
@@ -106,3 +106,6 @@ export default function IterationShowcase({ iterations, title = "Design Evolutio
     </ScrollSection>
   )
 }
+
+export default IterationShowcase
+export { IterationShowcase }
