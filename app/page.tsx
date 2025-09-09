@@ -158,7 +158,7 @@ export default function Page() {
               <div>
                 {/* Wordmark */}
                 <div className="mb-8 flex items-center gap-2">
-                  <div className="text-2xl font-extrabold tracking-tight">devanshu</div>
+                  <div className="text-2xl font-extrabold tracking-tight">Devanshu Umbare</div>
                   <div className="h-2 w-2 rounded-full bg-white/60" aria-hidden="true" />
                 </div>
 
@@ -169,7 +169,7 @@ export default function Page() {
                 />
 
                 <p className="mt-4 max-w-[42ch] text-lg text-white/70">
-                  Devanshu is a UI/UX Designer & Frontend Designer based in Kalyan, Maharashtra. He creates intuitive
+                  Devanshu here I'm a UI/UX Designer & Frontend Designer based in Kalyan, Maharashtra. He creates intuitive
                   software solutions for restaurants, gaming, education, logistics, event planning, cross-platform
                   gaming, professional networking, and travel industries.
                 </p>
