@@ -1,10 +1,10 @@
-import { CaseStudyLayout } from "@/components/case-study-layout"
-import { StoryFlow } from "@/components/story-flow"
-import { ScrollSection } from "@/components/scroll-section"
-import { StorySection } from "@/components/story-section"
-import { IterationShowcase } from "@/components/iteration-showcase"
-import { MetricsGrid } from "@/components/metrics-grid"
-import { TimelineSection } from "@/components/timeline-section"
+import CaseStudyLayout from "@/components/case-study-layout"
+import StoryFlow from "@/components/story-flow"
+import ScrollSection from "@/components/scroll-section"
+import StorySection from "@/components/story-section"
+import IterationShowcase from "@/components/iteration-showcase"
+import MetricsGrid from "@/components/metrics-grid"
+import TimelineSection from "@/components/timeline-section"
 
 export default function CrossplayGamingCaseStudy() {
   return (
