@@ -169,7 +169,7 @@ export default function Page() {
                 />
 
                 <p className="mt-4 max-w-[42ch] text-lg text-white/70">
-                  Devanshu here I'm a UI/UX Designer & Frontend Designer based in Kalyan, Maharashtra. He creates intuitive
+                  I'm a UI/UX Designer & Frontend Designer based in Kalyan, Maharashtra. I create intuitive
                   software solutions for restaurants, gaming, education, logistics, event planning, cross-platform
                   gaming, professional networking, and travel industries.
                 </p>
@@ -225,12 +225,18 @@ export default function Page() {
                 <div className="mt-10">
                   <p className="mb-3 text-xs font-semibold tracking-widest text-white/50">SKILLS & TECHNOLOGIES</p>
                   <ul className="grid grid-cols-2 gap-x-6 gap-y-3 text-lg font-bold text-white/25 sm:grid-cols-3">
-                    <li>React.js</li>
-                    <li>Next.js</li>
+                    <li>user research</li>
+                    <li>wireframing</li>
                     <li>UI/UX Design</li>
-                    <li>React Native</li>
-                    <li>JavaScript</li>
+                    <li>prototyping </li>
+                    <li>typography</li>
                     <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Sketch</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
                   </ul>
                 </div>
               </div>
